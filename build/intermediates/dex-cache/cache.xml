@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="C:\Users\BTX17-1\AndroidStudioProjects\AggiesLand\app\build\intermediates\pre-dexed\release\internal_impl-20.0.0-e1080123598815c88f73e934a94bdbab6cc3eba8.jar"
+        jar="C:\Users\BTX17-1\AndroidStudioProjects\AggiesLand\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\libs\internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d"/>
+    <item
+        dex="C:\Users\BTX17-1\AndroidStudioProjects\AggiesLand\app\build\intermediates\pre-dexed\release\classes-bc297de5e318f0f7551158834bff53750474af84.jar"
+        jar="C:\Users\BTX17-1\AndroidStudioProjects\AggiesLand\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0"/>
+    <item
+        dex="C:\Users\BTX17-1\AndroidStudioProjects\AggiesLand\app\build\intermediates\pre-dexed\release\Parse-1.5.1-866ffaa09133af080d6f2f8fa7eeb99c97765a1b.jar"
+        jar="C:\Users\BTX17-1\AndroidStudioProjects\AggiesLand\app\libs\Parse-1.5.1.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="3d645417e7780d44f32e29a3ec6b729b75aef26c"/>
+    <item
+        dex="C:\Users\BTX17-1\AndroidStudioProjects\AggiesLand\app\build\intermediates\pre-dexed\release\support-annotations-20.0.0-be3f42aeaf0628e57c5d5e2383040cd3b116faa6.jar"
+        jar="C:\Users\BTX17-1\android-sdks\extras\android\m2repository\com\android\support\support-annotations\20.0.0\support-annotations-20.0.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa"/>
+    <item
+        dex="C:\Users\BTX17-1\AndroidStudioProjects\AggiesLand\app\build\intermediates\pre-dexed\release\classes-7e132f52d260155e9a8614b5080e2977157d4dcb.jar"
+        jar="C:\Users\BTX17-1\AndroidStudioProjects\AggiesLand\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.0.1\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="f71a6822470c9eb659d4f4a6cb57b780b35f058b"/>
+
+</pre-dex-items>

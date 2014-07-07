@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lbbw.AggiesLand.aggiesland.app" >
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <permission android:name="com.lbbw.AggiesLand.aggiesland.app.permission.C2D_MESSAGE" android:protectionLevel="signature" />
+    <uses-permission android:name="com.lbbw.AggiesLand.aggiesland.app.permission.C2D_MESSAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.lbbw.AggiesLand.aggiesland.app.LoginActivity"
+            android:label="AggiesLand" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name="com.parse.PushService" />
+        <receiver android:name="com.parse.ParseBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.parse.GcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <!--
+                  IMPORTANT: Change "com.parse.tutorials.pushnotifications" to match your app's package name.
+                -->
+                <category android:name="com.lbbw.AggiesLand.aggiesland.app" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name="com.lbbw.AggiesLand.aggiesland.app.ClubActivity"
+                  android:label="">
+        </activity>
+        <activity android:name="com.lbbw.AggiesLand.aggiesland.app.ClubSingleItemView"
+                  android:label="@string/title_clubs_detail">
+        </activity>
+
+        <activity
+            android:name="com.lbbw.AggiesLand.aggiesland.app.NewsActivity"
+            android:label="" >
+        </activity>
+        <activity
+            android:name="com.lbbw.AggiesLand.aggiesland.app.NewsSingleItemView"
+            android:label="@string/title_news_detail">
+        </activity>
+
+
+        <!--Login/Signup Activity Implementation -->
+
+
+        <activity android:name=".TabBarActivity"
+                  android:label=""
+                  android:logo="@drawable/logo_large"
+                  >
+
+        </activity>
+
+        <activity android:name=".SignUpActivity"
+            android:label="Register">
+
+        </activity>
+
+        <activity android:name=".ForgetPassword"
+            android:label="Forget Password">
+
+        </activity>
+
+    </application>
+
+</manifest>
