@@ -18,7 +18,7 @@ import org.w3c.dom.Text;
 /**
  * Created by BTX17-1 on 6/21/2014.
  */
-public class ClubListViewAdapter extends BaseAdapter {
+public class  ClubListViewAdapter extends BaseAdapter {
     Context clubcontext;
     LayoutInflater clubinflater;
     ImageLoader clubimageLoader;
@@ -34,6 +34,8 @@ public class ClubListViewAdapter extends BaseAdapter {
         clubimageLoader = new ImageLoader(context);
 
     }
+
+    // This is a test from Github
 
     public class ViewHolder {
         TextView dateLabel;
