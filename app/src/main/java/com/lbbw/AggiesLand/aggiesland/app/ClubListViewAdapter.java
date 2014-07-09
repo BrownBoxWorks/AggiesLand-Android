@@ -35,7 +35,7 @@ public class  ClubListViewAdapter extends BaseAdapter {
 
     }
 
-    // This is a test from Github
+    // This is a test from Github - This is my change
 
     public class ViewHolder {
         TextView dateLabel;
