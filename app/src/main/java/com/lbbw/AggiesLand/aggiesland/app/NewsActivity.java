@@ -38,7 +38,7 @@ public class NewsActivity extends ListActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Parse.initialize(this, "5b91v6F6A0GaeC64FuIgeCctYaEM81LFybSR4g7K", "wlp32pFFhzB2jz5dbHrTCHBPkqB7Y9AFxNTKrYl6");
+        //Parse.initialize(this, "5b91v6F6A0GaeC64FuIgeCctYaEM81LFybSR4g7K", "wlp32pFFhzB2jz5dbHrTCHBPkqB7Y9AFxNTKrYl6");
 
 
         setContentView(R.layout.newslistview_main);
