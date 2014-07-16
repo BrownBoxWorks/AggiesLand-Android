@@ -36,7 +36,11 @@ public class TabBarActivity extends TabActivity{
         spec = getTabHost().newTabSpec("Clubs").setIndicator("Clubs",res.getDrawable(R.drawable.ic_launcher)).setContent(intent);
         tabHost.addTab(spec);
 
-        tabHost.setCurrentTab(1);
+        intent = new Intent().setClass(this, CampusEventsMenu.class);
+        spec = getTabHost().newTabSpec("Campus Events").setIndicator("Campus Events",res.getDrawable(R.drawable.ic_launcher)).setContent(intent);
+        tabHost.addTab(spec);
+
+        tabHost.setCurrentTab(0);
 
         PushService.setDefaultPushCallback(this, TabBarActivity.class);
         ParseAnalytics.trackAppOpened(getIntent());

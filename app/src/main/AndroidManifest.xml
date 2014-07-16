@@ -67,6 +67,11 @@
             android:label="@string/title_news_detail">
         </activity>
 
+        <activity
+            android:name="com.lbbw.AggiesLand.aggiesland.app.CampusEventsMenu"
+            android:label="@string/title_news_detail">
+        </activity>
+
 
         <!--Login/Signup Activity Implementation -->
 
