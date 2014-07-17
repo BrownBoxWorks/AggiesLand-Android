@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.view.Menu;
+import android.widget.RadioButton;
 import android.widget.TabHost;
 import android.widget.TabHost.TabSpec;
 
@@ -44,6 +45,10 @@ public class TabBarActivity extends TabActivity{
 
         PushService.setDefaultPushCallback(this, TabBarActivity.class);
         ParseAnalytics.trackAppOpened(getIntent());
+
+
+
+
     }
 
 }
