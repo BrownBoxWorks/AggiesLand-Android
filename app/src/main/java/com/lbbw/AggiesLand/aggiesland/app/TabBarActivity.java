@@ -43,8 +43,8 @@ public class TabBarActivity extends TabActivity{
 
         tabHost.setCurrentTab(0);
 
-        PushService.setDefaultPushCallback(this, TabBarActivity.class);
-        ParseAnalytics.trackAppOpened(getIntent());
+        //PushService.setDefaultPushCallback(this, TabBarActivity.class);
+        //ParseAnalytics.trackAppOpened(getIntent());
     }
 
     @Override
