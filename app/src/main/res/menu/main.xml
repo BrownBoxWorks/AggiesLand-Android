@@ -2,8 +2,8 @@
 
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:id="@+id/email_event"
-          android:title="Email Event" />
+          android:title="Post Event via E-Mail" />
     <item android:id="@+id/twitter_event"
-          android:title="Tweet Event"/>
+          android:title="Post Event via Twitter"/>
 
 </menu>

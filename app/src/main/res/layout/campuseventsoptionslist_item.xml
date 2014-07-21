@@ -10,6 +10,8 @@
         android:layout_height="wrap_content"
         android:id="@+id/image"
         android:layout_alignParentTop="true"
+        android:adjustViewBounds="true"
+
         />
 
     <TextView

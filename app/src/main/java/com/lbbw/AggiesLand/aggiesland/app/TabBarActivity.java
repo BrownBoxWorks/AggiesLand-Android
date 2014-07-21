@@ -1,11 +1,14 @@
 package com.lbbw.AggiesLand.aggiesland.app;
 
+import android.app.Activity;
 import android.app.TabActivity;
 import android.content.Intent;
 import android.content.res.Resources;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.widget.TabHost;
 import android.widget.TabHost.TabSpec;
 
@@ -15,8 +18,11 @@ import com.parse.PushService;
 /**
  * Created by BTX17-1 on 6/27/2014.
  */
-@SuppressWarnings({"decrpriations"})
+
 public class TabBarActivity extends TabActivity{
+
+    private MenuItem item;
+    public Intent option1;
 
     @Override
     public void onCreate (Bundle savedInstanceState) {
@@ -53,5 +59,28 @@ public class TabBarActivity extends TabActivity{
         inflater.inflate(R.menu.main,menu);
         return true;
     }
+
+
+   public boolean onOptionsItemsSelected(MenuItem item){
+
+        switch (item.getItemId()){
+            case R.id.email_event:
+              option1 = new Intent(TabBarActivity.this, EmailSender.class);
+                return true;
+
+            case R.id.twitter_event:
+                String tweetUrl = "https://twitter.com/intent/tweet?text=@AggiesLand Event Post &url="
+                        + "https://www.google.com";
+                Uri uri = Uri.parse(tweetUrl);
+                startActivity(new Intent(Intent.ACTION_VIEW, uri));
+                return true;
+
+            default:
+                return super.onContextItemSelected(item);
+
+        }
+
+    }
+
 
 }
