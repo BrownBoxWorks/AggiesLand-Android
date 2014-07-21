@@ -110,7 +110,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
-
+import android.widget.TextView;
 
 
 public class EmailSender extends Activity {
@@ -125,11 +125,11 @@ public class EmailSender extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.email);
 
-       // buttonSend = (Button) findViewById(R.id.buttonSend);
-        //textTo = (EditText) findViewById(R.id.editTextTo);
-       // textSubject = (EditText) findViewById(R.id.editTextSubject);
-        //textMessage = (EditText) findViewById(R.id.editTextMessage);
-
+        buttonSend = (Button) findViewById(R.id.buttonSend);
+        textTo = (EditText) findViewById(R.id.editTextTo);
+        textSubject = (EditText) findViewById(R.id.editTextSubject);
+        textMessage = (EditText) findViewById(R.id.editMessage);
+        
         buttonSend.setOnClickListener(new OnClickListener() {
 
             @Override
