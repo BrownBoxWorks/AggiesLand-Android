@@ -129,7 +129,7 @@ public class EmailSender extends Activity {
         textTo = (EditText) findViewById(R.id.editTextTo);
         textSubject = (EditText) findViewById(R.id.editTextSubject);
         textMessage = (EditText) findViewById(R.id.editMessage);
-        
+
         buttonSend.setOnClickListener(new OnClickListener() {
 
             @Override
@@ -150,7 +150,7 @@ public class EmailSender extends Activity {
                 email.setType("message/rfc822");
 
                 startActivity(Intent.createChooser(email, "Choose an Email client :"));
-
+                
             }
         });
     }
