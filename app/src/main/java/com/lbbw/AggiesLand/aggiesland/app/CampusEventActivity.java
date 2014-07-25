@@ -12,8 +12,8 @@ import android.widget.ListView;
 import com.parse.ParseFile;
 import com.parse.ParseObject;
 import com.parse.ParseQuery;
+import com.parse.ParseException;
 
-import java.text.ParseException;
 import java.util.ArrayList;
 import java.util.List;
 
