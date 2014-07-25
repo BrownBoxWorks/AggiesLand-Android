@@ -1,13 +1,13 @@
-import android.app.Activity;
+package com.lbbw.AggiesLand.aggiesland.app;
+
+import android.app.ListActivity;
 import android.os.Bundle;
 import android.widget.ListView;
-
-import com.lbbw.AggiesLand.aggiesland.app.R;
 
 /**
  * Created by Quis on 7/22/2014.
  */
-public class AthleteListView extends Activity {
+public class AthleteListView extends ListActivity {
     ListView list;
     AthleteListViewAdapter adapter;
     String [] title;

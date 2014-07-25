@@ -1,11 +1,11 @@
+package com.lbbw.AggiesLand.aggiesland.app;
+
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
-
-import com.lbbw.AggiesLand.aggiesland.app.R;
 
 /**
  * Created by Quis on 7/22/2014.
