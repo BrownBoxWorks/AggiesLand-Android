@@ -23,25 +23,21 @@
 
     <!-- Login Screen String Credentials -->
 
-    <!--<string name="action_sign_in_short">Sign In</string> -->
+
+    <!-- <string name="action_sign_in_short">Sign In</string> -->
     <string name="orText">OR</string>
-   <!-- <string name="action_register">Register</string> -->
+    <!-- <string name="action_register">Register</string> -->
     <string name="usernameHint">Username</string>
-
-
 
     <!-- Signup Screen String Credentials -->
 
-       <string name="emailHint">Email</string>
+    <string name="emailHint">Email</string>
     <string name="passwordHint">Password</string>
     <string name="confirmPasswordHint">Re-Enter Password</string>
     <string name="createAccount">Create Account</string>
-
-
-
     <string name="date">Date</string>
     <string name="title">Title</string>
     <string name="body">Body</string>
-
+    <string name="title_activity_campus_events">Campus Events</string>
 
 </resources>
