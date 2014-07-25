@@ -60,12 +60,12 @@ public class TabBarActivity extends TabActivity{
         return true;
     }
 
-
-   public boolean onOptionsItemsSelected(MenuItem item){
+   @Override
+   public boolean onOptionsItemSelected(MenuItem item){
 
         switch (item.getItemId()){
             case R.id.email_event:
-              option1 = new Intent(TabBarActivity.this, EmailSender.class);
+              option1 = new Intent(this, EmailSender.class);
                 return true;
 
             case R.id.twitter_event:

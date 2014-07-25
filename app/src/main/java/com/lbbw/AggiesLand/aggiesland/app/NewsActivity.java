@@ -3,6 +3,8 @@ package com.lbbw.AggiesLand.aggiesland.app;
 import android.app.Activity;
 import android.app.ListActivity;
 import android.app.ProgressDialog;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.AsyncTask;
 import android.support.v4.app.FragmentActivity;
 import android.support.v7.app.ActionBarActivity;
@@ -11,6 +13,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
@@ -105,7 +108,13 @@ public class NewsActivity extends ListActivity {
             mProgressDialog.dismiss();
         }
     }
+
+
+
+
 }
+
+
 
 
 
