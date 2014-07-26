@@ -20,15 +20,14 @@ public class AthleteListViewAdapter extends BaseAdapter {
     LayoutInflater inflater;
    
 
-    public AthleteListViewAdapter(Context context, String [] title, LayoutInflater inflater) {
+    public AthleteListViewAdapter(Context context, String [] title) {
         this.context = context;
         this.title = title;
 
 
     }
 
-    public AthleteListViewAdapter(AthleteListView athleteListView, String[] title) {
-    }
+
 
     @Override
     public int getCount(){
@@ -39,7 +38,7 @@ public class AthleteListViewAdapter extends BaseAdapter {
     public Object getItem(int position) {return  null;}
     
     public long getItemId(int position){
-        return position;
+        return 0;
     }
 
 
@@ -48,7 +47,7 @@ public class AthleteListViewAdapter extends BaseAdapter {
 
         inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         View itemView = inflater.inflate(R.layout.athletelistview_item, parent, false);
-        sportName = (TextView) itemView.findViewById(R.id.title);
+        sportName = (TextView) itemView.findViewById(R.id.sportName);
         sportName.setText(title[position]);
         return itemView;
     }

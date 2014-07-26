@@ -72,6 +72,11 @@
             android:name=".CampusEventsMenu"
             android:label="@string/title_news_detail" >
         </activity>
+        <activity android:name=".AthleteListView"
+                android:label="Athletics" >
+
+                </activity>
+
 
         <!-- Login/Signup Activity Implementation -->
 
