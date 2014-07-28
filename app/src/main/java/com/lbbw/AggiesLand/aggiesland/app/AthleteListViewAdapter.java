@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.ListView;
 import android.widget.TextView;
 
 /**
@@ -12,12 +13,10 @@ import android.widget.TextView;
  */
 public class AthleteListViewAdapter extends BaseAdapter {
 
-
-
-    
     Context context;
     String [] title;
     LayoutInflater inflater;
+    ListView listContent;
    
 
     public AthleteListViewAdapter(Context context, String [] title) {
@@ -50,8 +49,8 @@ public class AthleteListViewAdapter extends BaseAdapter {
         sportName = (TextView) itemView.findViewById(R.id.sportName);
         sportName.setText(title[position]);
         return itemView;
+
     }
-  
 
 }
 
