@@ -85,5 +85,4 @@ public class TabBarActivity extends TabActivity{
 
     }
 
-
-}
+    }
