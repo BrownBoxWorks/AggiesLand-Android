@@ -2,6 +2,18 @@
 <pre-dex-items>
 
     <item
+        dex="C:\Users\BTX17-1\AndroidStudioProjects\AggiesLand\app\build\intermediates\pre-dexed\debug\Parse-1.5.1-866ffaa09133af080d6f2f8fa7eeb99c97765a1b.jar"
+        jar="C:\Users\BTX17-1\AndroidStudioProjects\AggiesLand\app\libs\Parse-1.5.1.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="3d645417e7780d44f32e29a3ec6b729b75aef26c"/>
+    <item
+        dex="C:\Users\BTX17-1\AndroidStudioProjects\AggiesLand\app\build\intermediates\pre-dexed\debug\support-annotations-20.0.0-be3f42aeaf0628e57c5d5e2383040cd3b116faa6.jar"
+        jar="C:\Users\BTX17-1\android-sdks\extras\android\m2repository\com\android\support\support-annotations\20.0.0\support-annotations-20.0.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa"/>
+    <item
         dex="C:\Users\BTX17-1\AndroidStudioProjects\AggiesLand\app\build\intermediates\pre-dexed\debug\internal_impl-20.0.0-1b4eec6466fa1aeac1440948d7ba42f2f85e7bdc.jar"
         jar="C:\Users\BTX17-1\AndroidStudioProjects\AggiesLand\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\libs\internal_impl-20.0.0.jar"
         jumboMode="false"

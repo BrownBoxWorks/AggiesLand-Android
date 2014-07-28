@@ -39,5 +39,6 @@
     <string name="title">Title</string>
     <string name="body">Body</string>
     <string name="title_activity_campus_events">Campus Events</string>
+    <string name="title_activity_my">MyActivity</string>
 
 </resources>

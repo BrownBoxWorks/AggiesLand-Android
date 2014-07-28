@@ -47,7 +47,7 @@
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
                 <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
 
-<!--                   IMPORTANT: Change "com.parse.tutorials.pushnotifications" to match your app's package name. -->
+                <!-- IMPORTANT: Change "com.parse.tutorials.pushnotifications" to match your app's package name. -->
                 <category android:name="com.lbbw.AggiesLand.aggiesland.app" />
             </intent-filter>
         </receiver>
@@ -72,11 +72,10 @@
             android:name=".CampusEventsMenu"
             android:label="@string/title_news_detail" >
         </activity>
-        <activity android:name=".AthleteListView"
-                android:label="Athletics" >
-
-                </activity>
-
+        <activity
+            android:name=".AthleteListView"
+            android:label="Athletics" >
+        </activity>
 
         <!-- Login/Signup Activity Implementation -->
 
@@ -96,6 +95,10 @@
         <activity
             android:name=".CampusEvents"
             android:label="@string/title_activity_campus_events" >
+        </activity>
+        <activity
+            android:name=".MyActivity"
+            android:label="@string/title_activity_my" >
         </activity>
     </application>
 
