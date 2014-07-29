@@ -33,8 +33,9 @@ public class AthleteListView extends Activity {
 
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                     switch(position){
-                        case 1:
-                            String url =  "http://www.facebook.com";
+                        case 0:
+                            String url =  "https://twitter.com/intent/tweet?text=@AggiesLand Event Post &url="
+                                    + "https://www.google.com";
                             Uri l = Uri.parse(url);
                             startActivity(new Intent(Intent.ACTION_VIEW,l));
                             break;
