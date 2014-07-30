@@ -47,7 +47,7 @@ public class TabBarActivity extends TabActivity{
         spec = getTabHost().newTabSpec("Campus Events").setIndicator("Campus Events",res.getDrawable(R.drawable.ic_launcher)).setContent(intent);
         tabHost.addTab(spec);
 
-      
+
 
 
         //PushService.setDefaultPushCallback(this, TabBarActivity.class);
