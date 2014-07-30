@@ -66,6 +66,7 @@ public class CampusEventActivity extends ListActivity {
                     campuseventsdata.setEventName((String) campusevents.get("EventName"));
                     campuseventsdata.setLocation((String) campusevents.get("Location"));
                     campuseventsdata.setDetails((String) campusevents.get("AddInstructions"));
+                    campuseventsdata.setImage(image.getUrl());
 
                     campuseventslist.add(campuseventsdata);
 

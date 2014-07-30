@@ -93,7 +93,7 @@
             android:label="Forget Password" >
         </activity>
         <activity
-            android:name=".CampusEvents"
+            android:name=".CampusEventActivity"
             android:label="@string/title_activity_campus_events" >
         </activity>
         <activity

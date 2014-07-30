@@ -1,6 +1,7 @@
 package com.lbbw.AggiesLand.aggiesland.app;
 
 import android.content.Context;
+import android.net.Uri;
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
@@ -34,9 +35,38 @@ public class CampusEventsMenu extends Activity {
 
         list.setAdapter(adapter);
 
+        list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+
+
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                switch(position){
+                    case 0:
+                        Intent myIntent = new Intent(CampusEventsMenu.this, CampusEventActivity.class);
+                        CampusEventsMenu.this.startActivity(myIntent);
+                        break;
+
+                    case 1:
+                        Intent intent = new Intent(CampusEventsMenu.this, AthleteListView.class);
+                        CampusEventsMenu.this.startActivity(intent);
+                        break;
+
+                    default:
+                        break;
+                }
+
+
+
+            }
+
+
+        });
 
 
     }
+
+
+
+
 
 
 
