@@ -84,7 +84,7 @@ public class MyActivity extends ActionBarActivity
             // Only show items in the action bar relevant to this screen
             // if the drawer is not showing. Otherwise, let the drawer
             // decide what to show in the action bar.
-            getMenuInflater().inflate(R.menu.my, menu);
+            getMenuInflater().inflate(R.menu.main, menu);
             restoreActionBar();
             return true;
         }
