@@ -8,17 +8,17 @@
         revision="19.1.0"
         sha1="8694693636ab36910c8100ce527c258ff3ebece0"/>
     <item
-        dex="C:\Users\Quis\AndroidStudioProjects\AggiesLand-Android\app\build\intermediates\pre-dexed\debug\classes-bb3b262244b403abe41579d2dfc60ecbda6e964d.jar"
-        jar="C:\Users\Quis\AndroidStudioProjects\AggiesLand-Android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.0.1\classes.jar"
-        jumboMode="false"
-        revision="19.1.0"
-        sha1="f71a6822470c9eb659d4f4a6cb57b780b35f058b"/>
-    <item
         dex="C:\Users\Quis\AndroidStudioProjects\AggiesLand-Android\app\build\intermediates\pre-dexed\debug\internal_impl-20.0.0-1c144b13b89087463c2563228c14b2749510cead.jar"
         jar="C:\Users\Quis\AndroidStudioProjects\AggiesLand-Android\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\libs\internal_impl-20.0.0.jar"
         jumboMode="false"
         revision="19.1.0"
         sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d"/>
+    <item
+        dex="C:\Users\Quis\AndroidStudioProjects\AggiesLand-Android\app\build\intermediates\pre-dexed\debug\classes-bb3b262244b403abe41579d2dfc60ecbda6e964d.jar"
+        jar="C:\Users\Quis\AndroidStudioProjects\AggiesLand-Android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.0.1\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="f71a6822470c9eb659d4f4a6cb57b780b35f058b"/>
     <item
         dex="C:\Users\Quis\AndroidStudioProjects\AggiesLand-Android\app\build\intermediates\pre-dexed\debug\Parse-1.5.1-b0a00ca44f06e3564d27fc635f7d682f7b9a04ae.jar"
         jar="C:\Users\Quis\AndroidStudioProjects\AggiesLand-Android\app\libs\Parse-1.5.1.jar"

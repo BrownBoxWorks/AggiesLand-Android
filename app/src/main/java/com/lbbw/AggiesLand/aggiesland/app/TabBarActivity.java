@@ -47,6 +47,10 @@ public class TabBarActivity extends TabActivity{
         spec = getTabHost().newTabSpec("Campus Events").setIndicator("Campus Events",res.getDrawable(R.drawable.ic_launcher)).setContent(intent);
         tabHost.addTab(spec);
 
+        intent = new Intent().setClass(this, AthleteListView.class);
+        spec = getTabHost().newTabSpec("Athletics").setIndicator("Athletics",res.getDrawable(R.drawable.ic_launcher)).setContent(intent);
+        tabHost.addTab(spec);
+
 
 
 
