@@ -27,7 +27,6 @@ public class AthleteListViewAdapter extends BaseAdapter {
     }
 
 
-
     @Override
     public int getCount(){
             return title.length;
