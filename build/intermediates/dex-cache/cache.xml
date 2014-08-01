@@ -14,17 +14,17 @@
         revision="19.1.0"
         sha1="b6a82434c1eca686607867cd906bcc80ed987837"/>
     <item
-        dex="C:\Users\BTX17-1\AndroidStudioProjects\AggiesLand\app\build\intermediates\pre-dexed\debug\support-annotations-20.0.0-be3f42aeaf0628e57c5d5e2383040cd3b116faa6.jar"
-        jar="C:\Users\BTX17-1\android-sdks\extras\android\m2repository\com\android\support\support-annotations\20.0.0\support-annotations-20.0.0.jar"
-        jumboMode="false"
-        revision="19.1.0"
-        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa"/>
-    <item
         dex="C:\Users\BTX17-1\AndroidStudioProjects\AggiesLand\app\build\intermediates\pre-dexed\debug\internal_impl-20.0.0-1b4eec6466fa1aeac1440948d7ba42f2f85e7bdc.jar"
         jar="C:\Users\BTX17-1\AndroidStudioProjects\AggiesLand\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\libs\internal_impl-20.0.0.jar"
         jumboMode="false"
         revision="19.1.0"
         sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d"/>
+    <item
+        dex="C:\Users\BTX17-1\AndroidStudioProjects\AggiesLand\app\build\intermediates\pre-dexed\debug\support-annotations-20.0.0-be3f42aeaf0628e57c5d5e2383040cd3b116faa6.jar"
+        jar="C:\Users\BTX17-1\android-sdks\extras\android\m2repository\com\android\support\support-annotations\20.0.0\support-annotations-20.0.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa"/>
     <item
         dex="C:\Users\BTX17-1\AndroidStudioProjects\AggiesLand\app\build\intermediates\pre-dexed\debug\classes-bd6976c90bd98a7ecdad1cae1e04dc9aa0020a86.jar"
         jar="C:\Users\BTX17-1\AndroidStudioProjects\AggiesLand\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.0.1\classes.jar"
