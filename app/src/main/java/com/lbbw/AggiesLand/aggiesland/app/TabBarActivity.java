@@ -12,6 +12,8 @@ import android.view.MenuItem;
 import android.widget.TabHost;
 import android.widget.TabHost.TabSpec;
 
+import com.google.android.gms.ads.*;
+
 import com.parse.ParseAnalytics;
 import com.parse.PushService;
 
@@ -28,6 +30,11 @@ public class TabBarActivity extends TabActivity{
     public void onCreate (Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tab);
+
+        // Look up the AdView as a resource and load a request.
+        AdView adView = (AdView) this.findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        adView.loadAd(adRequest);
 
 
         Resources res = getResources();
