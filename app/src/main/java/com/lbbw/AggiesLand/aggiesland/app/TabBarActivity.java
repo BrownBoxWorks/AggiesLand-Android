@@ -15,6 +15,7 @@ import android.widget.TabHost.TabSpec;
 import com.google.android.gms.ads.*;
 
 import com.parse.ParseAnalytics;
+import com.parse.ParseUser;
 import com.parse.PushService;
 
 /**
@@ -25,6 +26,7 @@ public class TabBarActivity extends TabActivity{
 
     private MenuItem item;
     public Intent option1;
+    private Intent login;
 
     @Override
     public void onCreate (Bundle savedInstanceState) {
@@ -89,6 +91,11 @@ public class TabBarActivity extends TabActivity{
                 startActivity(new Intent(Intent.ACTION_VIEW, uri));
                 return true;
 
+
+            case R.id.logout:
+                ParseUser.logOut();
+                ParseUser currentUser = ParseUser.getCurrentUser();
+                 login = new Intent(this,LoginActivity.class);
             default:
                 return super.onContextItemSelected(item);
 
