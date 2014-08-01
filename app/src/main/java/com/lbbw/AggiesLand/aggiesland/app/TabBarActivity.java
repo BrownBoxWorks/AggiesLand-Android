@@ -58,7 +58,7 @@ public class TabBarActivity extends TabActivity{
         spec = getTabHost().newTabSpec("Bus Routes").setIndicator("Bus Routes",res.getDrawable(R.drawable.ic_launcher)).setContent(intent);
         tabHost.addTab(spec);
 
-        // 
+        //
 
 
 
@@ -97,3 +97,4 @@ public class TabBarActivity extends TabActivity{
     }
 
     }
+ 
