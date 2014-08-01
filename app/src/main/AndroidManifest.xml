@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.lbbw.AggiesLand.aggiesland.app" >
+    package="com.lbbw.AggiesLand.aggiesland.appfinal" >
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -10,10 +10,10 @@
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 
     <permission
-        android:name="com.lbbw.AggiesLand.aggiesland.app.permission.C2D_MESSAGE"
+        android:name="com.lbbw.AggiesLand.aggiesland.appfinal.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.lbbw.AggiesLand.aggiesland.app.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.lbbw.AggiesLand.aggiesland.appfinal.permission.C2D_MESSAGE" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="android.permission.VIBRATE" />
 
@@ -26,7 +26,7 @@
         <meta-data android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
         <activity
-            android:name=".LoginActivity"
+            android:name="com.lbbw.AggiesLand.aggiesland.appfinal.LoginActivity"
             android:label="AggiesLand" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -53,65 +53,65 @@
                 <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
 
                 <!-- IMPORTANT: Change "com.parse.tutorials.pushnotifications" to match your app's package name. -->
-                <category android:name="com.lbbw.AggiesLand.aggiesland.app" />
+                <category android:name="com.lbbw.AggiesLand.aggiesland.appfinal" />
             </intent-filter>
         </receiver>
 
         <activity
-            android:name=".ClubActivity"
+            android:name="com.lbbw.AggiesLand.aggiesland.appfinal.ClubActivity"
             android:label="" >
         </activity>
         <activity
-            android:name=".ClubSingleItemView"
+            android:name="com.lbbw.AggiesLand.aggiesland.appfinal.ClubSingleItemView"
             android:label="@string/title_clubs_detail" >
         </activity>
         <activity
-            android:name=".NewsActivity"
+            android:name="com.lbbw.AggiesLand.aggiesland.appfinal.NewsActivity"
             android:label="" >
         </activity>
         <activity
-            android:name=".NewsSingleItemView"
+            android:name="com.lbbw.AggiesLand.aggiesland.appfinal.NewsSingleItemView"
             android:label="@string/title_news_detail" >
         </activity>
         <activity
-            android:name=".CampusEventsMenu"
+            android:name="com.lbbw.AggiesLand.aggiesland.appfinal.CampusEventsMenu"
             android:label="@string/title_news_detail" >
         </activity>
         <activity
-            android:name=".AthleteListView"
+            android:name="com.lbbw.AggiesLand.aggiesland.appfinal.AthleteListView"
             android:label="Athletics" >
         </activity>
 
         <activity
-            android:name=".BusRoutes"
+            android:name="com.lbbw.AggiesLand.aggiesland.appfinal.BusRoutes"
             android:label="" >
         </activity>
 
         <!-- Login/Signup Activity Implementation -->
 
         <activity
-            android:name=".TabBarActivity"
+            android:name="com.lbbw.AggiesLand.aggiesland.appfinal.TabBarActivity"
             android:label=""
             android:logo="@drawable/logo_large" >
         </activity>
         <activity
-            android:name=".SignUpActivity"
+            android:name="com.lbbw.AggiesLand.aggiesland.appfinal.SignUpActivity"
             android:label="Register" >
         </activity>
         <activity
-            android:name=".ForgetPassword"
+            android:name="com.lbbw.AggiesLand.aggiesland.appfinal.ForgetPassword"
             android:label="Forget Password" >
         </activity>
         <activity
-            android:name=".CampusEventActivity"
+            android:name="com.lbbw.AggiesLand.aggiesland.appfinal.CampusEventActivity"
             android:label="@string/title_activity_campus_events" >
         </activity>
         <activity
-            android:name=".MyActivity"
+            android:name="com.lbbw.AggiesLand.aggiesland.appfinal.MyActivity"
             android:label="@string/title_activity_my" >
         </activity>
         <activity
-            android:name=".EmailSender"
+            android:name="com.lbbw.AggiesLand.aggiesland.appfinal.EmailSender"
             android:label="Event Post Request" >
         </activity>
 
