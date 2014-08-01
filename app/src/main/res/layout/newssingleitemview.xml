@@ -11,7 +11,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:adjustViewBounds="true"
-            android:layout_alignParentBottom="true"
 
             ads:adUnitId="ca-app-pub-2971437863634496/5078280969"
             ads:adSize="BANNER"/>
@@ -52,7 +51,7 @@
 
     <ImageView
         android:id="@+id/image"
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:background="#000000"

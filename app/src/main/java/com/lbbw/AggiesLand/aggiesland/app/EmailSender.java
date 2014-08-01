@@ -37,8 +37,8 @@ public class EmailSender extends Activity {
             @Override
             public void onClick(View v) {
 
-                String to = textTo.getText().toString();
-                String subject = textSubject.getText().toString();
+                String to = "aggiesland@gmail.com" /*textTo.getText().toString()*/;
+                String subject = "Event Post Request"/*textSubject.getText().toString()*/;
                 String message = textMessage.getText().toString();
 
                 Intent email = new Intent(Intent.ACTION_SEND);
