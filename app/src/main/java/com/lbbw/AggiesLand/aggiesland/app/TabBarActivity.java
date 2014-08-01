@@ -15,7 +15,6 @@ import android.widget.TabHost.TabSpec;
 import com.google.android.gms.ads.*;
 
 import com.parse.ParseAnalytics;
-import com.parse.ParseInstallation;
 import com.parse.ParseUser;
 import com.parse.PushService;
 
@@ -66,8 +65,8 @@ public class TabBarActivity extends TabActivity{
 
 
 
-       PushService.setDefaultPushCallback(this, TabBarActivity.class);
-        ParseInstallation.getCurrentInstallation().saveInBackground();
+        PushService.setDefaultPushCallback(this, TabBarActivity.class);
+        ParseAnalytics.trackAppOpened(getIntent());
     }
 
     @Override
@@ -82,8 +81,8 @@ public class TabBarActivity extends TabActivity{
 
         switch (item.getItemId()){
             case R.id.email_event:
-             // option1 = new Intent(this, EmailSender.class);
-                startActivity(new Intent(this,EmailSender.class));
+              option1 = new Intent(this, EmailSender.class);
+                startActivity(new Intent(Intent.ACTION_VIEW));
                 return true;
 
             case R.id.twitter_event:
@@ -92,12 +91,12 @@ public class TabBarActivity extends TabActivity{
                 Uri uri = Uri.parse(tweetUrl);
                 startActivity(new Intent(Intent.ACTION_VIEW, uri));
                 return true;
-
+  
 
             case R.id.logout:
                 ParseUser.logOut();
                 ParseUser currentUser = ParseUser.getCurrentUser();
-                startActivity(new Intent(this,LoginActivity.class));
+                 login = new Intent(this,LoginActivity.class);
             default:
                 return super.onContextItemSelected(item);
 
