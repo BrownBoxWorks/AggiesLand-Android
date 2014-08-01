@@ -1,6 +1,7 @@
 package com.lbbw.AggiesLand.aggiesland.app;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
@@ -34,22 +35,27 @@ public class BusRoutes extends Activity {
                     case 0:
                         String url = "http://www.greensboro-nc.gov/modules/showdocument.aspx?documentid=23834";
                         Uri a = Uri.parse(url);
+                        startActivity(new Intent(Intent.ACTION_VIEW,a));
                         break;
                     case 1:
                         url = "http://www.greensboro-nc.gov/modules/showdocument.aspx?documentid=23833";
                         Uri b = Uri.parse(url);
+                        startActivity(new Intent(Intent.ACTION_VIEW,b));
                         break;
                     case 2:
                         url = "http://www.greensboro-nc.gov/modules/showdocument.aspx?documentid=23832";
                         Uri c = Uri.parse(url);
+                        startActivity(new Intent(Intent.ACTION_VIEW,c));
                         break;
                     case 3:
                         url = "http://www.greensboro-nc.gov/modules/showdocument.aspx?documentid=23831";
                         Uri d = Uri.parse(url);
+                        startActivity(new Intent(Intent.ACTION_VIEW,d));
                         break;
                     case 4:
                         url = "http://www.greensboro-nc.gov/modules/showdocument.aspx?documentid=23830";
                         Uri e = Uri.parse(url);
+                        startActivity(new Intent(Intent.ACTION_VIEW,e));
                         break;
                 }
             }
