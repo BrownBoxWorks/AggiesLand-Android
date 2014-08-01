@@ -56,11 +56,6 @@ public class LoginActivity extends Activity {
         if (currentUser != null) {
             Intent in =  new Intent(LoginActivity.this,TabBarActivity.class);
             startActivity(in);
-        } else {
-            // show the signup or login screen
-            Toast.makeText(getApplicationContext(), "", Toast.LENGTH_SHORT).show();
-            showAlertDialog(LoginActivity.this,"Login", "Username or Password is invalid.", false);
-
         }
 
 
