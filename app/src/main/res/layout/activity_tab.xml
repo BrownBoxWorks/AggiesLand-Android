@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
     android:id="@android:id/tabhost"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent" >
@@ -9,6 +10,12 @@
         android:layout_height="fill_parent"
         android:orientation="vertical"
          >
+
+        <com.google.android.gms.ads.AdView android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ads:adUnitId="ca-app-pub-2971437863634496/2264415364"
+            ads:adSize="BANNER"/>
 
         <TabWidget
             android:id="@android:id/tabs"
@@ -23,5 +30,7 @@
             android:padding="5dp" >
 
         </FrameLayout>
+
+
     </LinearLayout>
     </TabHost>
