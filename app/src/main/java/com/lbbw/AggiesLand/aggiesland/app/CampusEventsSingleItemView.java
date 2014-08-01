@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.google.android.gms.ads.*;
+
 /**
  * Created by BTX17-1 on 7/23/2014.
  */
@@ -21,6 +23,11 @@ public class CampusEventsSingleItemView extends Activity {
     public void onCreate (Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.campuseventsitemview);
+
+        // Look up the AdView as a resource and load a request.
+        AdView adView = (AdView) this.findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        adView.loadAd(adRequest);
 
         Intent i = getIntent();
         dateDetail = i.getStringExtra("Date");

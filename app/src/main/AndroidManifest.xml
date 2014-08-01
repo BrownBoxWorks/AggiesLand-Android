@@ -82,6 +82,11 @@
             android:label="Athletics" >
         </activity>
 
+        <activity
+            android:name=".BusRoutes"
+            android:label="" >
+        </activity>
+
         <!-- Login/Signup Activity Implementation -->
 
         <activity

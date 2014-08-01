@@ -54,8 +54,8 @@ public class TabBarActivity extends TabActivity{
         spec = getTabHost().newTabSpec("Campus Events").setIndicator("Campus Events",res.getDrawable(R.drawable.ic_launcher)).setContent(intent);
         tabHost.addTab(spec);
 
-        intent = new Intent().setClass(this, AthleteListView.class);
-        spec = getTabHost().newTabSpec("Athletics").setIndicator("Athletics",res.getDrawable(R.drawable.ic_launcher)).setContent(intent);
+        intent = new Intent().setClass(this, BusRoutes.class);
+        spec = getTabHost().newTabSpec("Bus Routes").setIndicator("Bus Routes",res.getDrawable(R.drawable.ic_launcher)).setContent(intent);
         tabHost.addTab(spec);
 
         // 
@@ -63,8 +63,8 @@ public class TabBarActivity extends TabActivity{
 
 
 
-        //PushService.setDefaultPushCallback(this, TabBarActivity.class);
-        //ParseAnalytics.trackAppOpened(getIntent());
+        PushService.setDefaultPushCallback(this, TabBarActivity.class);
+        ParseAnalytics.trackAppOpened(getIntent());
     }
 
     @Override

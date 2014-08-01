@@ -53,6 +53,17 @@ public class LoginActivity extends Activity {
         //Initializing Parse SDK
         onCreateParse();
 
+        ParseUser currentUser = ParseUser.getCurrentUser();
+        if (currentUser != null) {
+            Intent in =  new Intent(LoginActivity.this,TabBarActivity.class);
+            startActivity(in);
+        } else {
+            // show the signup or login screen
+            Toast.makeText(getApplicationContext(), "", Toast.LENGTH_SHORT).show();
+            showAlertDialog(LoginActivity.this,"Login", "Username or Password is invalid.", false);
+
+        }
+
 
 
         //Calling ParseAnalytics to see Analytics of our app
