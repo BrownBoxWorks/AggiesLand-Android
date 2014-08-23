@@ -9,7 +9,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/imageView"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:adjustViewBounds="true"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -17,9 +17,7 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="EventName"
         android:id="@+id/eventName"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_below="@+id/imageView" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -29,7 +27,5 @@
         android:id="@+id/date"
         android:layout_below="@+id/eventName"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:textColor="#ff1300ff"
-        android:layout_alignParentEnd="false" />
+        android:textColor="#ff1300ff" />
 </RelativeLayout>

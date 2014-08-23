@@ -23,13 +23,13 @@ public class CampusEventViewAdapter extends BaseAdapter {
     private List<CampusEvents> campusList = null;
     private ArrayList<CampusEvents> campusarraylist;
 
-    public CampusEventViewAdapter (Context context, List<CampusEvents> campusList){
-        this.campuscontext = context;
+    public CampusEventViewAdapter (Context campuscontext, List<CampusEvents> campusList){
+        this.campuscontext = campuscontext;
         this.campusList = campusList;
-        campusinflater = LayoutInflater.from(context);
+        campusinflater = LayoutInflater.from(campuscontext);
         this.campusarraylist = new ArrayList<CampusEvents>();
         this.campusarraylist.addAll(campusList);
-        campusImageLoader = new ImageLoader(context);
+        campusImageLoader = new ImageLoader(campuscontext);
 
 
     }
@@ -67,7 +67,7 @@ public class CampusEventViewAdapter extends BaseAdapter {
             view = campusinflater.inflate(R.layout.campuseventslist_item,null);
             campusHolder.dateLabel = (TextView) view.findViewById(R.id.date);
             campusHolder.eventNameLabel = (TextView) view.findViewById(R.id.eventName);
-            campusHolder.campusImage = (ImageView) view.findViewById(R.id.image);
+            campusHolder.campusImage = (ImageView) view.findViewById(R.id.imageView);
 
             view.setTag(campusHolder);
 
@@ -79,8 +79,10 @@ public class CampusEventViewAdapter extends BaseAdapter {
 
         campusHolder.dateLabel.setText(campusList.get(position).getDate());
         campusHolder.eventNameLabel.setText(campusList.get(position).getEventName());
+        campusImageLoader.DisplayImage(campusList.get(position).getImage(),
+                campusHolder.campusImage);
 
-      //  campusImageLoader.DisplayImage(campusList.get(position).getImage(), campusHolder.campusImage);
+
 
         view.setOnClickListener(new View.OnClickListener() {
             @Override
