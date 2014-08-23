@@ -80,7 +80,7 @@ public class CampusEventViewAdapter extends BaseAdapter {
         campusHolder.dateLabel.setText(campusList.get(position).getDate());
         campusHolder.eventNameLabel.setText(campusList.get(position).getEventName());
 
-       campusImageLoader.DisplayImage(campusList.get(position).getImage(), campusHolder.campusImage);
+      //  campusImageLoader.DisplayImage(campusList.get(position).getImage(), campusHolder.campusImage);
 
         view.setOnClickListener(new View.OnClickListener() {
             @Override
