@@ -20,17 +20,17 @@
         revision="19.1.0"
         sha1="8694693636ab36910c8100ce527c258ff3ebece0"/>
     <item
-        dex="C:\Users\Neegbeah Reeves\AndroidStudioProjects\AggiesLand-Android\app\build\intermediates\pre-dexed\debug\internal_impl-20.0.0-56c49569487442fecfcc1fbcff9fb8085058c210.jar"
-        jar="C:\Users\Neegbeah Reeves\AndroidStudioProjects\AggiesLand-Android\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\libs\internal_impl-20.0.0.jar"
-        jumboMode="false"
-        revision="19.1.0"
-        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d"/>
-    <item
         dex="C:\Users\Neegbeah Reeves\AndroidStudioProjects\AggiesLand-Android\app\build\intermediates\pre-dexed\debug\classes-3e58dd655877a0bb170f5db4f678feed58c75b8a.jar"
         jar="C:\Users\Neegbeah Reeves\AndroidStudioProjects\AggiesLand-Android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.0.1\classes.jar"
         jumboMode="false"
         revision="19.1.0"
         sha1="f71a6822470c9eb659d4f4a6cb57b780b35f058b"/>
+    <item
+        dex="C:\Users\Neegbeah Reeves\AndroidStudioProjects\AggiesLand-Android\app\build\intermediates\pre-dexed\debug\internal_impl-20.0.0-56c49569487442fecfcc1fbcff9fb8085058c210.jar"
+        jar="C:\Users\Neegbeah Reeves\AndroidStudioProjects\AggiesLand-Android\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\libs\internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d"/>
     <item
         dex="C:\Users\Neegbeah Reeves\AndroidStudioProjects\AggiesLand-Android\app\build\intermediates\pre-dexed\debug\classes-c64a3cd0e83bdf7f80f389e7e2d4beb2f7d44b93.jar"
         jar="C:\Users\Neegbeah Reeves\AndroidStudioProjects\AggiesLand-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\5.0.77\classes.jar"

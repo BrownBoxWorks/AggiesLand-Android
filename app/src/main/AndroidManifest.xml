@@ -115,6 +115,11 @@
             android:label="Event Post Request" >
         </activity>
 
+        <activity
+            android:name="com.lbbw.AggiesLand.aggiesland.appfinal.CampusEventsSingleItemView"
+            android:label="Campus Events Details" >
+        </activity>
+
     </application>
 
 </manifest>
