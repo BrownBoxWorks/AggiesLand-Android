@@ -63,7 +63,7 @@ public class TabBarActivity extends TabActivity{
 
 
 
-       PushService.setDefaultPushCallback(this, TabBarActivity.class);
+       //PushService.setDefaultPushCallback(this, TabBarActivity.class);
         ParseInstallation.getCurrentInstallation().saveInBackground();
     }
 
