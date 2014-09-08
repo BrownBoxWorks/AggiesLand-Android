@@ -2,11 +2,11 @@
 <pre-dex-items>
 
     <item
-        dex="C:\Users\Neegbeah Reeves\AndroidStudioProjects\AggiesLand-Android\app\build\intermediates\pre-dexed\debug\Parse-1.5.1-1c126b6f22e4b5e81131951c04da34dd3ff7e889.jar"
-        jar="C:\Users\Neegbeah Reeves\AndroidStudioProjects\AggiesLand-Android\app\libs\Parse-1.5.1.jar"
+        dex="C:\Users\Neegbeah Reeves\AndroidStudioProjects\AggiesLand-Android\app\build\intermediates\pre-dexed\debug\Parse-1.6.0-0462ba2cf1220a197fa6704cd198584aa7cac772.jar"
+        jar="C:\Users\Neegbeah Reeves\AndroidStudioProjects\AggiesLand-Android\app\libs\Parse-1.6.0.jar"
         jumboMode="false"
         revision="19.1.0"
-        sha1="3d645417e7780d44f32e29a3ec6b729b75aef26c"/>
+        sha1="2a812174191af5a4513a873602a765b0171f252c"/>
     <item
         dex="C:\Users\Neegbeah Reeves\AndroidStudioProjects\AggiesLand-Android\app\build\intermediates\pre-dexed\debug\support-annotations-20.0.0-2f1ffa75017c327e6438d2de02599a12b28b87f2.jar"
         jar="C:\Users\Neegbeah Reeves\android-sdks\extras\android\m2repository\com\android\support\support-annotations\20.0.0\support-annotations-20.0.0.jar"
