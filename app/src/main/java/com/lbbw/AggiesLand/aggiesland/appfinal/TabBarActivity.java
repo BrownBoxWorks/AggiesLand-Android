@@ -30,13 +30,13 @@ public class TabBarActivity extends TabActivity{
     public void onCreate (Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tab);
-
+/*
         // Look up the AdView as a resource and load a request.
         AdView adView = (AdView) this.findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
         adView.loadAd(adRequest);
 
-
+*/
         Resources res = getResources();
         TabHost tabHost = getTabHost();
         TabHost.TabSpec spec;

@@ -7,6 +7,7 @@ package com.lbbw.AggiesLand.aggiesland.appfinal;
 import com.parse.Parse;
 import com.parse.ParseACL;
 import com.parse.ParseUser;
+import com.parse.PushService;
 
 import android.app.Application;
 
@@ -25,6 +26,8 @@ public class ParseApplication extends Application{
         defaultACL.setPublicReadAccess(true);
 
         ParseACL.setDefaultACL(defaultACL, true);
+
+        PushService.setDefaultPushCallback(this, TabBarActivity.class);
 
     }
 }
