@@ -10,6 +10,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.TabHost;
 
+import com.crashlytics.android.Crashlytics;
 import com.google.android.gms.ads.*;
 
 import com.parse.ParseInstallation;
@@ -47,7 +48,7 @@ public class TabBarActivity extends TabActivity{
         tabHost.addTab(spec);
 
         intent = new Intent().setClass(this, ClubActivity.class);
-        spec = getTabHost().newTabSpec("Clubs").setIndicator("Clubs",res.getDrawable(R.drawable.ic_launcher)).setContent(intent);
+        spec = getTabHost().newTabSpec("Clubs").setIndicator("Parties",res.getDrawable(R.drawable.ic_launcher)).setContent(intent);
         tabHost.addTab(spec);
 
         intent = new Intent().setClass(this, CampusEventsMenu.class);
