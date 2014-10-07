@@ -28,7 +28,8 @@
             android:value="@integer/google_play_services_version" />
         <activity
             android:name="com.lbbw.AggiesLand.aggiesland.appfinal.LoginActivity"
-            android:label="AggiesLand" >
+            android:label="AggiesLand"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -60,32 +61,39 @@
 
         <activity
             android:name="com.lbbw.AggiesLand.aggiesland.appfinal.ClubActivity"
-            android:label="" >
+            android:label=""
+            android:screenOrientation="portrait">
         </activity>
         <activity
             android:name="com.lbbw.AggiesLand.aggiesland.appfinal.ClubSingleItemView"
-            android:label="@string/title_clubs_detail" >
+            android:label="@string/title_clubs_detail"
+            android:screenOrientation="portrait">
         </activity>
         <activity
             android:name="com.lbbw.AggiesLand.aggiesland.appfinal.NewsActivity"
-            android:label="" >
+            android:label=""
+            android:screenOrientation="portrait">
         </activity>
         <activity
             android:name="com.lbbw.AggiesLand.aggiesland.appfinal.NewsSingleItemView"
-            android:label="@string/title_news_detail" >
+            android:label="@string/title_news_detail"
+            android:screenOrientation="portrait">
         </activity>
         <activity
             android:name="com.lbbw.AggiesLand.aggiesland.appfinal.CampusEventsMenu"
-            android:label="@string/title_news_detail" >
+            android:label="@string/title_news_detail"
+            android:screenOrientation="portrait">
         </activity>
         <activity
             android:name="com.lbbw.AggiesLand.aggiesland.appfinal.AthleteListView"
-            android:label="Athletics" >
+            android:label="Athletics"
+            android:screenOrientation="portrait">
         </activity>
 
         <activity
             android:name="com.lbbw.AggiesLand.aggiesland.appfinal.BusRoutes"
-            android:label="" >
+            android:label=""
+            android:screenOrientation="portrait">
         </activity>
 
         <!-- Login/Signup Activity Implementation -->
@@ -93,32 +101,39 @@
         <activity
             android:name="com.lbbw.AggiesLand.aggiesland.appfinal.TabBarActivity"
             android:label=""
-            android:logo="@drawable/logo_large" >
+            android:logo="@drawable/logo_large"
+            android:screenOrientation="portrait">
         </activity>
         <activity
             android:name="com.lbbw.AggiesLand.aggiesland.appfinal.SignUpActivity"
-            android:label="Register" >
+            android:label="Register"
+            android:screenOrientation="portrait">
         </activity>
         <activity
             android:name="com.lbbw.AggiesLand.aggiesland.appfinal.ForgetPassword"
-            android:label="Forget Password" >
+            android:label="Forget Password"
+            android:screenOrientation="portrait">
         </activity>
         <activity
             android:name="com.lbbw.AggiesLand.aggiesland.appfinal.CampusEventActivity"
-            android:label="@string/title_activity_campus_events" >
+            android:label="@string/title_activity_campus_events"
+            android:screenOrientation="portrait">
         </activity>
         <activity
             android:name="com.lbbw.AggiesLand.aggiesland.appfinal.MyActivity"
-            android:label="@string/title_activity_my" >
+            android:label="@string/title_activity_my"
+            android:screenOrientation="portrait">
         </activity>
         <activity
             android:name="com.lbbw.AggiesLand.aggiesland.appfinal.EmailSender"
-            android:label="Event Post Request" >
+            android:label="Event Post Request"
+            android:screenOrientation="portrait">
         </activity>
 
         <activity
             android:name="com.lbbw.AggiesLand.aggiesland.appfinal.CampusEventsSingleItemView"
-            android:label="Campus Events Details" >
+            android:label="Campus Events Details"
+            android:screenOrientation="portrait">
         </activity>
         <meta-data android:name="com.crashlytics.ApiKey" android:value="8e03bf8519f7903a4e20ae17146a26bdb3d4774a"/>
 

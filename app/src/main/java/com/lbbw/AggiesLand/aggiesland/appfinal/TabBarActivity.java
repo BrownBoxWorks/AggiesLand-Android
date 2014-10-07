@@ -15,11 +15,11 @@ import com.google.android.gms.ads.*;
 
 import com.parse.ParseInstallation;
 import com.parse.ParseUser;
-import com.parse.PushService;
 
 /**
  * Created by BTX17-1 on 6/27/2014.
  */
+
 
 public class TabBarActivity extends TabActivity{
 
@@ -51,12 +51,16 @@ public class TabBarActivity extends TabActivity{
         spec = getTabHost().newTabSpec("Clubs").setIndicator("Parties",res.getDrawable(R.drawable.ic_launcher)).setContent(intent);
         tabHost.addTab(spec);
 
-        intent = new Intent().setClass(this, CampusEventsMenu.class);
-        spec = getTabHost().newTabSpec("Campus Events").setIndicator("Campus Events",res.getDrawable(R.drawable.ic_launcher)).setContent(intent);
+        intent = new Intent().setClass(this, CampusEventActivity.class);
+        spec = getTabHost().newTabSpec("Special Events").setIndicator("Special Events",res.getDrawable(R.drawable.ic_launcher)).setContent(intent);
         tabHost.addTab(spec);
 
         intent = new Intent().setClass(this, BusRoutes.class);
         spec = getTabHost().newTabSpec("Bus Routes").setIndicator("Bus Routes",res.getDrawable(R.drawable.ic_launcher)).setContent(intent);
+        tabHost.addTab(spec);
+
+        intent = new Intent().setClass(this, AthleteListView.class);
+        spec = getTabHost().newTabSpec("Athletics").setIndicator("Athletics",res.getDrawable(R.drawable.ic_launcher)).setContent(intent);
         tabHost.addTab(spec);
 
         //
@@ -65,7 +69,7 @@ public class TabBarActivity extends TabActivity{
 
 
        //PushService.setDefaultPushCallback(this, TabBarActivity.class);
-        ParseInstallation.getCurrentInstallation().saveInBackground();
+        //ParseInstallation.getCurrentInstallation().saveInBackground();
     }
 
     @Override
@@ -93,8 +97,8 @@ public class TabBarActivity extends TabActivity{
 
 
             case R.id.logout:
-                ParseUser.logOut();
-                ParseUser currentUser = ParseUser.getCurrentUser();
+                ParseUser.getCurrentUser().logOut();
+                //ParseUser currentUser = ParseUser.getCurrentUser();
                 startActivity(new Intent(this,LoginActivity.class));
             default:
                 return super.onContextItemSelected(item);
