@@ -131,8 +131,14 @@
         </activity>
 
         <activity
-            android:name="com.lbbw.AggiesLand.aggiesland.appfinal.CampusEventsSingleItemView"
-            android:label="Campus Events Details"
+        android:name="com.lbbw.AggiesLand.aggiesland.appfinal.CampusEventsSingleItemView"
+        android:label="Campus Events Details"
+        android:screenOrientation="portrait">
+    </activity>
+
+        <activity
+            android:name="com.lbbw.AggiesLand.aggiesland.appfinal.BusinessActivity"
+            android:label="AggiesLand Vendors"
             android:screenOrientation="portrait">
         </activity>
         <meta-data android:name="com.crashlytics.ApiKey" android:value="8e03bf8519f7903a4e20ae17146a26bdb3d4774a"/>
