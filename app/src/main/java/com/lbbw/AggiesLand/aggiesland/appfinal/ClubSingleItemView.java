@@ -26,13 +26,13 @@ public class ClubSingleItemView extends Activity {
     public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.clubsingleitemview);
-
+/*
         // Look up the AdView as a resource and load a request.
         AdView adView = (AdView) this.findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
         adView.loadAd(adRequest);
 
-
+*/
         Intent i = getIntent();
         dateDetail = i.getStringExtra("Date");
         titleDetail = i.getStringExtra("Title");

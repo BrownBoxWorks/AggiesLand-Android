@@ -10,8 +10,8 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.TabHost;
 
-import com.crashlytics.android.Crashlytics;
-import com.google.android.gms.ads.*;
+//import com.crashlytics.android.Crashlytics;
+//import com.google.android.gms.ads.*;
 
 import com.parse.ParseInstallation;
 import com.parse.ParseUser;
@@ -46,11 +46,11 @@ public class TabBarActivity extends TabActivity{
         intent = new Intent().setClass(this, NewsActivity.class);
         spec = getTabHost().newTabSpec("News").setIndicator("News",res.getDrawable(R.drawable.ic_launcher)).setContent(intent);
         tabHost.addTab(spec);
-
+/*
         intent = new Intent().setClass(this, ClubActivity.class);
         spec = getTabHost().newTabSpec("Clubs").setIndicator("Parties",res.getDrawable(R.drawable.ic_launcher)).setContent(intent);
         tabHost.addTab(spec);
-
+*/
         intent = new Intent().setClass(this, CampusEventActivity.class);
         spec = getTabHost().newTabSpec("Special Events").setIndicator("Special Events",res.getDrawable(R.drawable.ic_launcher)).setContent(intent);
         tabHost.addTab(spec);
@@ -62,11 +62,11 @@ public class TabBarActivity extends TabActivity{
         intent = new Intent().setClass(this, AthleteListView.class);
         spec = getTabHost().newTabSpec("Athletics").setIndicator("Athletics",res.getDrawable(R.drawable.ic_launcher)).setContent(intent);
         tabHost.addTab(spec);
-
+/*
         intent = new Intent().setClass(this, BusinessActivity.class);
         spec = getTabHost().newTabSpec("Business").setIndicator("Business",res.getDrawable(R.drawable.ic_launcher)).setContent(intent);
         tabHost.addTab(spec);
-
+*/
         //
 
 

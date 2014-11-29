@@ -4,6 +4,7 @@ package com.lbbw.AggiesLand.aggiesland.appfinal;
  * Created by BTX17-1 on 6/24/2014.
  */
 import com.crashlytics.android.Crashlytics;
+import io.fabric.sdk.android.Fabric;
 import java.util.Locale;
 
 import android.app.Activity;
@@ -47,7 +48,8 @@ public class LoginActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         // TODO Auto-generated method stub
         super.onCreate(savedInstanceState);
-        Crashlytics.start(this);
+        Fabric.with(this, new Crashlytics());
+
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.loginview);
 

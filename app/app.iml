@@ -80,14 +80,17 @@
     </content>
     <orderEntry type="jdk" jdkName="Android API 19 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" exported="" name="crashlytics-1.1.13" level="project" />
+    <orderEntry type="library" exported="" name="answers-1.0.2" level="project" />
     <orderEntry type="library" exported="" name="support-v4-20.0.0" level="project" />
     <orderEntry type="library" exported="" name="Parse-1.6.0" level="project" />
     <orderEntry type="library" exported="" name="Parse-1.5.1" level="project" />
     <orderEntry type="library" exported="" name="1_Parse-1.5.1" level="project" />
+    <orderEntry type="library" exported="" name="fabric-1.0.2" level="project" />
+    <orderEntry type="library" exported="" name="crashlytics-2.1.0" level="project" />
     <orderEntry type="library" exported="" name="appcompat-v7-19.0.1" level="project" />
+    <orderEntry type="library" exported="" name="play-services-6.1.71" level="project" />
     <orderEntry type="library" exported="" name="support-annotations-20.0.0" level="project" />
-    <orderEntry type="library" exported="" name="play-services-5.0.77" level="project" />
+    <orderEntry type="library" exported="" name="beta-1.0.2" level="project" />
   </component>
 </module>
 
