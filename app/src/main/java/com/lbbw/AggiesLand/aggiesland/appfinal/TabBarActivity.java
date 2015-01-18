@@ -52,7 +52,7 @@ public class TabBarActivity extends TabActivity{
         tabHost.addTab(spec);
 */
         intent = new Intent().setClass(this, CampusEventActivity.class);
-        spec = getTabHost().newTabSpec("Special Events").setIndicator("Special Events",res.getDrawable(R.drawable.ic_launcher)).setContent(intent);
+        spec = getTabHost().newTabSpec("Events").setIndicator("Events",res.getDrawable(R.drawable.ic_launcher)).setContent(intent);
         tabHost.addTab(spec);
 
         intent = new Intent().setClass(this, BusRoutes.class);
@@ -60,7 +60,7 @@ public class TabBarActivity extends TabActivity{
         tabHost.addTab(spec);
 
         intent = new Intent().setClass(this, AthleteListView.class);
-        spec = getTabHost().newTabSpec("Athletics").setIndicator("Athletics",res.getDrawable(R.drawable.ic_launcher)).setContent(intent);
+        spec = getTabHost().newTabSpec("Sports").setIndicator("Sports",res.getDrawable(R.drawable.ic_launcher)).setContent(intent);
         tabHost.addTab(spec);
 /*
         intent = new Intent().setClass(this, BusinessActivity.class);
