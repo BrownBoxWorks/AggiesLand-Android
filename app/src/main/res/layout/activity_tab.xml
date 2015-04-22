@@ -3,7 +3,8 @@
     xmlns:ads="http://schemas.android.com/apk/res-auto"
     android:id="@android:id/tabhost"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent" >
+    android:layout_height="fill_parent"
+    android:labelFor="@color/common_signin_btn_light_text_default">
 
     <LinearLayout
         android:layout_width="fill_parent"
@@ -22,6 +23,9 @@
             android:id="@android:id/tabs"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/ab_solid_apptheme"
+            android:gravity="center"></TabWidget>
+        <!--    android:touchscreenBlocksFocus="false" -->
             />
 
         <FrameLayout

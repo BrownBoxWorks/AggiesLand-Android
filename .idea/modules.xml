@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AggiesLand.iml" filepath="$PROJECT_DIR$/AggiesLand.iml" />
       <module fileurl="file://$PROJECT_DIR$/AggiesLand-Android.iml" filepath="$PROJECT_DIR$/AggiesLand-Android.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>

@@ -2,18 +2,46 @@
 <items version="2" >
 
     <item
+        jar="C:\Users\Neegbeah Reeves\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.2.0\6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd\bolts-android-1.2.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
+        <dex dex="C:\Users\Neegbeah Reeves\AndroidStudioProjects\AggiesLand-Android\app\build\intermediates\pre-dexed\debug\bolts-android-1.2.0-eed372401230aac46c82538e998fbbb26d0e08e3.jar" />
+    </item>
+    <item
+        jar="C:\Users\Neegbeah Reeves\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\Users\Neegbeah Reeves\AndroidStudioProjects\AggiesLand-Android\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-30f7c187df4bbb3b4d8a31a17c5c58953db4db7b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Neegbeah Reeves\AndroidStudioProjects\AggiesLand-Android\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\crashlytics\2.2.3\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="151dcc4be9b748290223c6bbf94bf8213181a971">
+        <dex dex="C:\Users\Neegbeah Reeves\AndroidStudioProjects\AggiesLand-Android\app\build\intermediates\pre-dexed\debug\classes-89434b8af4ea7ba68b73436688fe4c6026cefe42.jar" />
+    </item>
+    <item
+        jar="C:\Users\Neegbeah Reeves\AndroidStudioProjects\AggiesLand-Android\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\Neegbeah Reeves\AndroidStudioProjects\AggiesLand-Android\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-459c03b666c9bc52a0cd6e988d175d0dd43147e6.jar" />
+    </item>
+    <item
+        jar="C:\Users\Neegbeah Reeves\AndroidStudioProjects\AggiesLand-Android\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\beta\1.1.2\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="0d6546c1c73cb64a6907f694e6c4bf4b50fefa70">
+        <dex dex="C:\Users\Neegbeah Reeves\AndroidStudioProjects\AggiesLand-Android\app\build\intermediates\pre-dexed\debug\classes-edbec9195e9be5761fa1cf48d50366b3df10df17.jar" />
+    </item>
+    <item
         jar="C:\Users\Neegbeah Reeves\AndroidStudioProjects\AggiesLand-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\6.1.71\classes.jar"
         jumboMode="false"
         revision="19.1.0"
         sha1="0f6d5c1ef2e982c3b7858408e3df389cf5d202da">
         <dex dex="C:\Users\Neegbeah Reeves\AndroidStudioProjects\AggiesLand-Android\app\build\intermediates\pre-dexed\debug\classes-7f86ca2ad46b69649332e9cd6fdfadcaf2a903da.jar" />
-    </item>
-    <item
-        jar="C:\Users\Neegbeah Reeves\AndroidStudioProjects\AggiesLand-Android\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\beta\1.0.2\classes.jar"
-        jumboMode="false"
-        revision="19.1.0"
-        sha1="56307e0ca49276b1252687678b996cae37cca6c8">
-        <dex dex="C:\Users\Neegbeah Reeves\AndroidStudioProjects\AggiesLand-Android\app\build\intermediates\pre-dexed\debug\classes-e69df3679c4909322be104295aaee22119f5ae4d.jar" />
     </item>
     <item
         jar="C:\Users\Neegbeah Reeves\AndroidStudioProjects\AggiesLand-Android\app\libs\Parse-1.8.1.jar"
@@ -23,46 +51,32 @@
         <dex dex="C:\Users\Neegbeah Reeves\AndroidStudioProjects\AggiesLand-Android\app\build\intermediates\pre-dexed\debug\Parse-1.8.1-9a915375686d18fa9a5d352bd0d1f2c6e7928052.jar" />
     </item>
     <item
-        jar="C:\Users\Neegbeah Reeves\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.1.4\129874135e6081269ace2312092031558865de12\bolts-android-1.1.4.jar"
+        jar="C:\Users\Neegbeah Reeves\AndroidStudioProjects\AggiesLand-Android\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
         jumboMode="false"
         revision="19.1.0"
-        sha1="129874135e6081269ace2312092031558865de12">
-        <dex dex="C:\Users\Neegbeah Reeves\AndroidStudioProjects\AggiesLand-Android\app\build\intermediates\pre-dexed\debug\bolts-android-1.1.4-d2fef5b840fcfdb008a2428f917b00a5117e0eb2.jar" />
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Users\Neegbeah Reeves\AndroidStudioProjects\AggiesLand-Android\app\build\intermediates\pre-dexed\debug\classes-2924cb8763454b5edae936eb7e16c101adc8ca87.jar" />
     </item>
     <item
-        jar="C:\Users\Neegbeah Reeves\AndroidStudioProjects\AggiesLand-Android\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\crashlytics\2.1.0\classes.jar"
+        jar="C:\Users\Neegbeah Reeves\AndroidStudioProjects\AggiesLand-Android\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\answers\1.1.2\classes.jar"
         jumboMode="false"
         revision="19.1.0"
-        sha1="8bf7d6a014327844ada8f63c8f1323a8d6b4e02e">
-        <dex dex="C:\Users\Neegbeah Reeves\AndroidStudioProjects\AggiesLand-Android\app\build\intermediates\pre-dexed\debug\classes-e4de1d5273c9f3d6569e62a4e353964ed6d0f7a2.jar" />
+        sha1="158555fbeff80e5a85464a818eadda8a448a1051">
+        <dex dex="C:\Users\Neegbeah Reeves\AndroidStudioProjects\AggiesLand-Android\app\build\intermediates\pre-dexed\debug\classes-8ff776b6407724e7017d3172f0bae0c6d58c76f3.jar" />
     </item>
     <item
-        jar="C:\Users\Neegbeah Reeves\AndroidStudioProjects\AggiesLand-Android\app\build\intermediates\exploded-aar\io.fabric.sdk.android\fabric\1.0.2\classes.jar"
+        jar="C:\Users\Neegbeah Reeves\AndroidStudioProjects\AggiesLand-Android\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\21.0.3\classes.jar"
         jumboMode="false"
         revision="19.1.0"
-        sha1="8cb02ff05e575cf4b80c9ba363bd28c2f17b7e54">
-        <dex dex="C:\Users\Neegbeah Reeves\AndroidStudioProjects\AggiesLand-Android\app\build\intermediates\pre-dexed\debug\classes-b0c92c0e54c6a53e64f755d980a360ca2fc377ee.jar" />
+        sha1="4b8945fc23a7461c6fdde15753456d64b0a9358b">
+        <dex dex="C:\Users\Neegbeah Reeves\AndroidStudioProjects\AggiesLand-Android\app\build\intermediates\pre-dexed\debug\classes-5fc056bcb6d12f0407e0115d9cc1d578a2cb0750.jar" />
     </item>
     <item
-        jar="C:\Users\Neegbeah Reeves\AndroidStudioProjects\AggiesLand-Android\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\libs\internal_impl-20.0.0.jar"
+        jar="C:\Users\Neegbeah Reeves\AndroidStudioProjects\AggiesLand-Android\app\build\intermediates\exploded-aar\io.fabric.sdk.android\fabric\1.3.0\classes.jar"
         jumboMode="false"
         revision="19.1.0"
-        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d">
-        <dex dex="C:\Users\Neegbeah Reeves\AndroidStudioProjects\AggiesLand-Android\app\build\intermediates\pre-dexed\debug\internal_impl-20.0.0-56c49569487442fecfcc1fbcff9fb8085058c210.jar" />
-    </item>
-    <item
-        jar="C:\Users\Neegbeah Reeves\AndroidStudioProjects\AggiesLand-Android\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\answers\1.0.2\classes.jar"
-        jumboMode="false"
-        revision="19.1.0"
-        sha1="ad20cbb8c8c5b10b259cef02041279d8d2251305">
-        <dex dex="C:\Users\Neegbeah Reeves\AndroidStudioProjects\AggiesLand-Android\app\build\intermediates\pre-dexed\debug\classes-4efc22e955f4e2d41c7b9461f9939490c0607789.jar" />
-    </item>
-    <item
-        jar="C:\Users\Neegbeah Reeves\AndroidStudioProjects\AggiesLand-Android\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\classes.jar"
-        jumboMode="false"
-        revision="19.1.0"
-        sha1="8694693636ab36910c8100ce527c258ff3ebece0">
-        <dex dex="C:\Users\Neegbeah Reeves\AndroidStudioProjects\AggiesLand-Android\app\build\intermediates\pre-dexed\debug\classes-1190467d497348b740039f476628d0fe99322033.jar" />
+        sha1="7372378dec00f25c04714a058617e515858273c8">
+        <dex dex="C:\Users\Neegbeah Reeves\AndroidStudioProjects\AggiesLand-Android\app\build\intermediates\pre-dexed\debug\classes-c01a17903c9353566a125a101af306734938eb95.jar" />
     </item>
     <item
         jar="C:\Users\Neegbeah Reeves\AndroidStudioProjects\AggiesLand-Android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.0.1\classes.jar"
@@ -72,11 +86,11 @@
         <dex dex="C:\Users\Neegbeah Reeves\AndroidStudioProjects\AggiesLand-Android\app\build\intermediates\pre-dexed\debug\classes-3e58dd655877a0bb170f5db4f678feed58c75b8a.jar" />
     </item>
     <item
-        jar="C:\Users\Neegbeah Reeves\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\20.0.0\support-annotations-20.0.0.jar"
+        jar="C:\Users\Neegbeah Reeves\AndroidStudioProjects\AggiesLand-Android\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\21.0.3\classes.jar"
         jumboMode="false"
         revision="19.1.0"
-        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa">
-        <dex dex="C:\Users\Neegbeah Reeves\AndroidStudioProjects\AggiesLand-Android\app\build\intermediates\pre-dexed\debug\support-annotations-20.0.0-acb9ee531316ed316a17628724d72c82cf7427c0.jar" />
+        sha1="00b0b7233e1ec64acebfac40d4983d32d4712426">
+        <dex dex="C:\Users\Neegbeah Reeves\AndroidStudioProjects\AggiesLand-Android\app\build\intermediates\pre-dexed\debug\classes-07f4e6c769f68b616791623df6360e7d7ae58834.jar" />
     </item>
 
 </items>
