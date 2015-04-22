@@ -90,18 +90,18 @@ public class TabBarActivity extends TabActivity{
        //PushService.setDefaultPushCallback(this, TabBarActivity.class);
         //ParseInstallation.getCurrentInstallation().saveInBackground();
     }
-@Override
-public void onResume(){
-    super.onResume();
+    @Override
+    public void onResume(){
+        super.onResume();
 
-    TabHost tabHost = getTabHost();
+        TabHost tabHost = getTabHost();
 
-    for(int i=0;i<tabHost.getTabWidget().getChildCount();i++)
-    {
-        TextView tv = (TextView) tabHost.getTabWidget().getChildAt(i).findViewById(android.R.id.title);
-        tv.setTextColor(Color.parseColor("#FFFFFF"));
+            for(int i=0;i<tabHost.getTabWidget().getChildCount();i++)
+            {
+                TextView tv = (TextView) tabHost.getTabWidget().getChildAt(i).findViewById(android.R.id.title);
+                tv.setTextColor(Color.parseColor("#FFFFFF"));
+            }
     }
-}
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu){
@@ -118,6 +118,7 @@ public void onResume(){
              // option1 = new Intent(this, EmailSender.class);
                 startActivity(new Intent(this,EmailSender.class));
                 return true;
+
 
             case R.id.twitter_event:
                 String tweetUrl = "https://twitter.com/intent/tweet?text=@AggiesLand Event Post &url="
