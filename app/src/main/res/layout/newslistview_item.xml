@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:descendantFocusability="beforeDescendants">
+
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent" >
+    android:layout_height="fill_parent"
+    android:paddingLeft="2dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:paddingRight="2dp"
+    android:background="@drawable/card_background_selector"
+    android:descendantFocusability="afterDescendants"
+    >
 
 
     <ImageView
@@ -35,3 +50,4 @@
         android:layout_below="@+id/title" />
 
 </RelativeLayout>
+    </FrameLayout>

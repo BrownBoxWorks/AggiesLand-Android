@@ -2,13 +2,19 @@
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#e2e4fe"
+    >
 
     <ListView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@android:id/list"
-        android:layout_gravity="center_horizontal" />
+        android:layout_gravity="center_horizontal"
+        android:listSelector="@android:color/transparent"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@null"
+        android:dividerHeight="10dp"/>
 
     <TextView android:id="@android:id/empty"
         android:layout_width="match_parent"
