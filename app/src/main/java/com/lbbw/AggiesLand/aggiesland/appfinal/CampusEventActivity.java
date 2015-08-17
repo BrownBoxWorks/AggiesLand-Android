@@ -4,6 +4,7 @@ import android.app.ListActivity;
 import android.app.ProgressDialog;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.support.v4.widget.SwipeRefreshLayout;
 import android.util.Log;
 import android.widget.ListAdapter;
 import android.widget.ListView;
@@ -26,12 +27,24 @@ public class CampusEventActivity extends ListActivity {
     ProgressDialog mProgressDialog;
     CampusEventViewAdapter campusadapter;
     private List<CampusEvents> campuseventslist = null;
+    private SwipeRefreshLayout swipeContainer;
 
     @Override
     public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.campuseventslist_main);
+
+        swipeContainer = (SwipeRefreshLayout)findViewById(R.id.swipeContainer);
+
+        swipeContainer.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
+            @Override
+            public void onRefresh() {
+                new RemoteDataTask().execute();
+
+            }
+        });
+
         new RemoteDataTask().execute();
     }
 
@@ -46,6 +59,10 @@ public class CampusEventActivity extends ListActivity {
             mProgressDialog.setIndeterminate(false);
             // Show progressdialog
             mProgressDialog.show();
+
+            if (swipeContainer.isRefreshing()){
+                swipeContainer.setRefreshing(false);
+            }
         }
 
         @Override

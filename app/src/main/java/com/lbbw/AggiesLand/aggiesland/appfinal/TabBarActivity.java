@@ -6,6 +6,7 @@ import android.content.res.Resources;
 import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -23,7 +24,7 @@ import com.parse.ParseUser;
  * Created by BTX17-1 on 6/27/2014.
  */
 
-
+@Deprecated
 public class TabBarActivity extends TabActivity{
 
     private MenuItem item;
@@ -70,8 +71,7 @@ public class TabBarActivity extends TabActivity{
         tabHost.addTab(spec);
 
         intent = new Intent().setClass(this, BusRoutes.class);
-        spec = getTabHost().newTabSpec("Bus Routes").setIndicator("Bus Routes",res.getDrawable(R.drawable.ic_launcher)).setContent(intent);
-
+        spec = getTabHost().newTabSpec("Routes").setIndicator("Routes",res.getDrawable(R.drawable.ic_launcher)).setContent(intent);
         tabHost.addTab(spec);
 
         intent = new Intent().setClass(this, AthleteListView.class);
@@ -132,6 +132,17 @@ public class TabBarActivity extends TabActivity{
                 ParseUser.getCurrentUser().logOut();
                 //ParseUser currentUser = ParseUser.getCurrentUser();
                 startActivity(new Intent(this,LoginActivity.class));
+                return true;
+
+
+            case R.id.twitter_feed:
+                startActivity(new Intent(this, TwitterFeedActvity.class));
+                return true;
+
+            case R.id.at_register:
+                startActivity(new Intent(this, NCATRegisterActivity.class));
+                return true;
+
             default:
                 return super.onContextItemSelected(item);
 

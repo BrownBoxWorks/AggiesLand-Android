@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
+import android.webkit.WebView;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
@@ -33,27 +34,27 @@ public class BusRoutes extends Activity {
 
                 switch (position) {
                     case 0:
-                        String url = "http://www.greensboro-nc.gov/modules/showdocument.aspx?documentid=23834";
+                        String url = "http://www.rideheat.com/sites/www.rideheat.com/files/pdf/71MF.pdf";
                         Uri a = Uri.parse(url);
                         startActivity(new Intent(Intent.ACTION_VIEW,a));
                         break;
                     case 1:
-                        url = "http://www.greensboro-nc.gov/modules/showdocument.aspx?documentid=23833";
+                        url = "http://www.rideheat.com/sites/www.rideheat.com/files/pdf/71SS.pdf";
                         Uri b = Uri.parse(url);
                         startActivity(new Intent(Intent.ACTION_VIEW,b));
                         break;
                     case 2:
-                        url = "http://www.greensboro-nc.gov/modules/showdocument.aspx?documentid=23832";
+                        url = "http://www.rideheat.com/sites/www.rideheat.com/files/pdf/72.pdf";
                         Uri c = Uri.parse(url);
                         startActivity(new Intent(Intent.ACTION_VIEW,c));
                         break;
                     case 3:
-                        url = "http://www.greensboro-nc.gov/modules/showdocument.aspx?documentid=23831";
+                        url = "http://www.rideheat.com/sites/www.rideheat.com/files/pdf/73.pdf";
                         Uri d = Uri.parse(url);
                         startActivity(new Intent(Intent.ACTION_VIEW,d));
                         break;
                     case 4:
-                        url = "http://www.greensboro-nc.gov/modules/showdocument.aspx?documentid=23830";
+                        url = "http://www.rideheat.com/sites/www.rideheat.com/files/pdf/75.pdf";
                         Uri e = Uri.parse(url);
                         startActivity(new Intent(Intent.ACTION_VIEW,e));
                         break;

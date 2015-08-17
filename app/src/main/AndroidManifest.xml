@@ -96,6 +96,7 @@
             android:screenOrientation="portrait">
         </activity>
 
+
         <!-- Login/Signup Activity Implementation -->
 
         <activity
@@ -120,8 +121,13 @@
             android:screenOrientation="portrait">
         </activity>
         <activity
-            android:name="com.lbbw.AggiesLand.aggiesland.appfinal.MyActivity"
-            android:label="@string/title_activity_my"
+            android:name="com.lbbw.AggiesLand.aggiesland.appfinal.TwitterFeedActvity"
+            android:label="#NCAT Feed"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.lbbw.AggiesLand.aggiesland.appfinal.NCATRegisterActivity"
+            android:label="The A&amp;T Register"
             android:screenOrientation="portrait">
         </activity>
         <activity

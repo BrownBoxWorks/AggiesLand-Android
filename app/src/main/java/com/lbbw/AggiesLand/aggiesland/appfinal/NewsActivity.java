@@ -4,6 +4,7 @@ import android.app.ListActivity;
 import android.app.ProgressDialog;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.support.v4.widget.SwipeRefreshLayout;
 import android.util.Log;
 import android.widget.ListAdapter;
 import android.widget.ListView;
@@ -24,14 +25,23 @@ public class NewsActivity extends ListActivity {
     ProgressDialog mProgressDialog;
     private List<News> newslist = null;
     NewsListViewAdapter adapter;
+    private SwipeRefreshLayout swipeContainer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //Parse.initialize(this, "5b91v6F6A0GaeC64FuIgeCctYaEM81LFybSR4g7K", "wlp32pFFhzB2jz5dbHrTCHBPkqB7Y9AFxNTKrYl6");
-
-
         setContentView(R.layout.newslistview_main);
+
+        swipeContainer = (SwipeRefreshLayout)findViewById(R.id.swipeContainer);
+
+        swipeContainer.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
+            @Override
+            public void onRefresh() {
+                new RemoteDataTask().execute();
+
+            }
+        });
+
         new RemoteDataTask().execute();
 
     }
@@ -49,6 +59,10 @@ public class NewsActivity extends ListActivity {
             mProgressDialog.setIndeterminate(false);
             // Show progressdialog
             mProgressDialog.show();
+
+            if (swipeContainer.isRefreshing()){
+                swipeContainer.setRefreshing(false);
+            }
 
         }
 

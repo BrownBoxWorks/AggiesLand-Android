@@ -6,6 +6,12 @@
     android:background="#e2e4fe"
     >
 
+    <android.support.v4.widget.SwipeRefreshLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/swipeContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
     <ListView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -22,4 +28,5 @@
         android:gravity="center"
         android:text="No Campus Events...Yet" />
 
+    </android.support.v4.widget.SwipeRefreshLayout>
 </LinearLayout>

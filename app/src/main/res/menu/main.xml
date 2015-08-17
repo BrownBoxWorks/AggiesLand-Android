@@ -1,11 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:id="@+id/logout"
-          android:title ="Log Out"/>
-    <item android:id="@+id/email_event"
-          android:title="Post Event via E-Mail" />
-    <item android:id="@+id/twitter_event"
-          android:title="Post Event via Twitter"/>
-
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+   <!-- xmlns:aggiesland="" -->
+<item android:id="@+id/logout"
+    android:title ="Log Out"/>
+<item android:id="@+id/email_event"
+    android:title="Post Event via E-Mail" />
+<item android:id="@+id/twitter_event"
+    android:title="Post Event via Twitter"/>
+<item android:id="@+id/twitter_feed"
+    android:title="#NCAT Feed"
+    android:icon="@drawable/ic_action_twitter"
+    android:showAsAction="always"
+    />
+<item android:id="@+id/at_register"
+      android:title="AT Register"
+      android:icon="@drawable/ic_action_news"
+    android:showAsAction="always"
+       />
 </menu>

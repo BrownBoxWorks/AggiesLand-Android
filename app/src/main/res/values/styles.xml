@@ -7,12 +7,15 @@
         <item name="actionBarStyle">@style/MyActionBar</item>
     </style>
 
-    <!-- ActionBar styles -->
+
+ <!-- ActionBar styles -->
+
     <style name="MyActionBar"
         parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
-        <item name="android:background">@drawable/ab_solid_apptheme</item>
+      <item name="android:background">@drawable/ab_solid_apptheme</item>
 
         <!-- Support library compatibility -->
         <item name="background">@drawable/ab_solid_apptheme</item>
     </style>
+    -->
 </resources>

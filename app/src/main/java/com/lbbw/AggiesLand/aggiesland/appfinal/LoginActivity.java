@@ -4,6 +4,8 @@ package com.lbbw.AggiesLand.aggiesland.appfinal;
  * Created by BTX17-1 on 6/24/2014.
  */
 import com.crashlytics.android.Crashlytics;
+import com.twitter.sdk.android.Twitter;
+import com.twitter.sdk.android.core.TwitterAuthConfig;
 import io.fabric.sdk.android.Fabric;
 import java.util.Locale;
 
@@ -32,6 +34,11 @@ import com.parse.ParseUser;
 
 public class LoginActivity extends Activity {
 
+    // Note: Your consumer key and secret should be obfuscated in your source code before shipping.
+    private static final String TWITTER_KEY = "kzH0xm2yqReZW5TjNNF63zpyK";
+    private static final String TWITTER_SECRET = "r0tBiDbskNbX6ytHMTCerPcExwHzMhaBxUJYli4ykSE1GhoA9B";
+
+
     Button btn_LoginIn = null;
     Button btn_SignUp = null;
     Button btn_ForgetPass = null;
@@ -48,13 +55,14 @@ public class LoginActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         // TODO Auto-generated method stub
         super.onCreate(savedInstanceState);
-        Fabric.with(this, new Crashlytics());
+        TwitterAuthConfig authConfig = new TwitterAuthConfig(TWITTER_KEY, TWITTER_SECRET);
+        Fabric.with(this, new Crashlytics(), new Twitter(authConfig));
 
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.loginview);
 
         //Initializing Parse SDK
-        onCreateParse();
+       // onCreateParse();
 
         ParseUser currentUser = ParseUser.getCurrentUser();
         if (currentUser != null) {

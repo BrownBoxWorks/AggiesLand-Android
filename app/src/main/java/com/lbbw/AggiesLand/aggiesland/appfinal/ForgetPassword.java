@@ -66,7 +66,7 @@ public class ForgetPassword extends Activity {
         ParseUser.requestPasswordResetInBackground(email, new UserForgotPasswordCallback());
     }
 
-    private class UserForgotPasswordCallback extends RequestPasswordResetCallback{
+    private class UserForgotPasswordCallback implements RequestPasswordResetCallback {
         public UserForgotPasswordCallback(){
             super();
         }

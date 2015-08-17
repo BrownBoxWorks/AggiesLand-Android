@@ -3,6 +3,7 @@ package com.lbbw.AggiesLand.aggiesland.appfinal;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.util.Linkify;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -50,6 +51,9 @@ public class CampusEventsSingleItemView extends Activity {
 
         imageLoader.DisplayImage(imageDetail,img);
 
+        //Linkify
+        Linkify.addLinks(txtlocation, Linkify.MAP_ADDRESSES);
+        Linkify.addLinks(txtdetails, Linkify.ALL);
 
 
     }

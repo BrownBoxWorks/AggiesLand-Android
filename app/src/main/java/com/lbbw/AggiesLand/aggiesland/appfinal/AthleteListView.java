@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
+import android.webkit.WebView;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
@@ -33,60 +34,59 @@ public class AthleteListView extends Activity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                     switch(position){
                         case 0:
-                            String urlBaseball = "http://www.ncataggies.com/SportSelect.dbml?&DB_OEM_ID=24500&SPID=74515";
-                            Uri a = Uri.parse(urlBaseball);
-                            startActivity(new Intent(Intent.ACTION_VIEW,a));
+                            setContentView(R.layout.ncatregister);
+                            WebView baseball = (WebView) findViewById(R.id.webview);
+                            baseball.loadUrl("http://www.ncataggies.com/SportSelect.dbml?&DB_OEM_ID=24500&SPID=74515");
                             break;
                         case 1:
-                            String urlBasketball = "http://www.ncataggies.com/SportSelect.dbml?DB_OEM_ID=24500&SPID=74518&SPSID=593463";
-                            Uri b = Uri.parse(urlBasketball);
-                            startActivity(new Intent(Intent.ACTION_VIEW,b));
+                            setContentView(R.layout.ncatregister);
+                            WebView basketball = (WebView) findViewById(R.id.webview);
+                            basketball.loadUrl("http://www.ncataggies.com/SportSelect.dbml?DB_OEM_ID=24500&SPID=74518&SPSID=593463");
                             break;
                         case 2:
-                            String urlWBaskeball = "http://www.ncataggies.com/SportSelect.dbml?DB_OEM_ID=24500&SPID=74519&SPSID=593465&DB_OEM_ID=24500";
-                            Uri wb = Uri.parse(urlWBaskeball);
-                            startActivity(new Intent(Intent.ACTION_VIEW,wb));
+                            setContentView(R.layout.ncatregister);
+                            WebView wbBasketball = (WebView) findViewById(R.id.webview);
+                            wbBasketball.loadUrl("http://www.ncataggies.com/SportSelect.dbml?DB_OEM_ID=24500&SPID=74519&SPSID=593465&DB_OEM_ID=24500");
                             break;
                         case 3:
-                            String urlBowling = "http://www.ncataggies.com/SportSelect.dbml?&DB_OEM_ID=24500&SPID=74527&SPSID=594847";
-                            Uri c = Uri.parse(urlBowling);
-                            startActivity(new Intent(Intent.ACTION_VIEW,c));
+                            setContentView(R.layout.ncatregister);
+                            WebView bowling = (WebView) findViewById(R.id.webview);
+                            bowling.loadUrl("http://www.ncataggies.com/SportSelect.dbml?&DB_OEM_ID=24500&SPID=74527&SPSID=594847");
                             break;
                         case 4:
-                            String urlXC = "http://www.ncataggies.com/SportSelect.dbml?&DB_OEM_ID=24500&SPID=75895&SPSID=595448";
-                            Uri d = Uri.parse(urlXC);
-                            startActivity(new Intent(Intent.ACTION_VIEW,d));
+                            setContentView(R.layout.ncatregister);
+                            WebView xc = (WebView) findViewById(R.id.webview);
+                            xc.loadUrl("http://www.ncataggies.com/SportSelect.dbml?&DB_OEM_ID=24500&SPID=75895&SPSID=595448");
                             break;
-
                         case 5:
-                            String urlFootball = "http://www.ncataggies.com/SportSelect.dbml?&DB_OEM_ID=24500&SPID=74503&SPSID=593291";
-                            Uri e = Uri.parse(urlFootball);
-                            startActivity(new Intent(Intent.ACTION_VIEW,e));
+                            setContentView(R.layout.ncatregister);
+                            WebView football = (WebView) findViewById(R.id.webview);
+                            football.loadUrl("http://www.ncataggies.com/SportSelect.dbml?&DB_OEM_ID=24500&SPID=74503&SPSID=593291");
                             break;
                         case 6:
-                           String urlSoftball = "http://www.ncataggies.com/SportSelect.dbml?&DB_OEM_ID=24500&SPID=74509&SPSID=593321";
-                            Uri f = Uri.parse(urlSoftball);
-                            startActivity(new Intent(Intent.ACTION_VIEW,f));
+                            setContentView(R.layout.ncatregister);
+                            WebView softball = (WebView) findViewById(R.id.webview);
+                            softball.loadUrl("http://www.ncataggies.com/SportSelect.dbml?&DB_OEM_ID=24500&SPID=74509&SPSID=593321");
                             break;
                         case 7:
-                            String urlSwim = "http://www.ncataggies.com/SportSelect.dbml?&DB_OEM_ID=24500&SPID=74507&SPSID=593318";
-                            Uri g = Uri.parse(urlSwim);
-                            startActivity(new Intent(Intent.ACTION_VIEW,g));
+                            setContentView(R.layout.ncatregister);
+                            WebView swimming = (WebView) findViewById(R.id.webview);
+                            swimming.loadUrl("http://www.ncataggies.com/SportSelect.dbml?&DB_OEM_ID=24500&SPID=74507&SPSID=593318");
                             break;
                         case 8:
-                            String urlTennis = "http://www.ncataggies.com/SportSelect.dbml?&DB_OEM_ID=24500&SPID=74512&SPSID=593342";
-                            Uri h = Uri.parse(urlTennis);
-                            startActivity(new Intent(Intent.ACTION_VIEW,h));
+                            setContentView(R.layout.ncatregister);
+                            WebView tennis = (WebView) findViewById(R.id.webview);
+                            tennis.loadUrl("http://www.ncataggies.com/SportSelect.dbml?&DB_OEM_ID=24500&SPID=74512&SPSID=593342");
                             break;
                         case 9:
-                            String urlTF = "http://www.ncataggies.com/SportSelect.dbml?&DB_OEM_ID=24500&SPID=74508&SPSID=593320";
-                            Uri i = Uri.parse(urlTF);
-                            startActivity(new Intent(Intent.ACTION_VIEW,i));
+                            setContentView(R.layout.ncatregister);
+                            WebView track = (WebView) findViewById(R.id.webview);
+                            track.loadUrl("http://www.ncataggies.com/SportSelect.dbml?&DB_OEM_ID=24500&SPID=74508&SPSID=593320");
                             break;
                         case 10:
-                           String urlVolleyball = "http://www.ncataggies.com/SportSelect.dbml?&DB_OEM_ID=24500&SPID=74514&SPSID=593343";
-                            Uri j = Uri.parse(urlVolleyball);
-                            startActivity(new Intent(Intent.ACTION_VIEW,j));
+                            setContentView(R.layout.ncatregister);
+                            WebView volleyball = (WebView) findViewById(R.id.webview);
+                            volleyball.loadUrl("http://www.ncataggies.com/SportSelect.dbml?&DB_OEM_ID=24500&SPID=74514&SPSID=593343");
                             break;
                         default:
                             break;
